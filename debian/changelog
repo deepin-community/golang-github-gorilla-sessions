@@ -1,5 +1,69 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-gorilla-sessions (1.2.1-1) unstable; urgency=medium
 
-  * Initial release
+  * Add uscan watch file
+  * New upstream version 1.2.1
+  * Update Section to golang
+  * Adopt package (Closes: #889238)
+  * Bump debhelper-compat to 13
+  * Update Standards-Version to 4.6.1 (no changes)
+  * Remove golang-github-gorilla-context-dev from Depends
+  * Add Rules-Requires-Root
+  * Add Multi-Arch hint
+  * Remove outdated lintian-overrides
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Shengjing Zhu <zhsj@debian.org>  Sat, 02 Jul 2022 01:39:50 +0800
+
+golang-github-gorilla-sessions (1.1+git20170802.7.b61c93c-4) unstable; urgency=medium
+
+  * QA upload.
+
+  [ Alexandre Viau ]
+  * Point Vcs-* urls to salsa.debian.org.
+
+  [ Jelmer Vernooĳ ]
+  * Fix Debian QA group name.
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 10 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Change priority extra to priority optional.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.1.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 01 Feb 2021 22:02:14 +0000
+
+golang-github-gorilla-sessions (1.1+git20170802.7.b61c93c-3) unstable; urgency=medium
+
+  * Remove Michael Lustfield from Uploaders list.
+
+ -- Michael Lustfield <michael@lustfield.net>  Sat, 03 Feb 2018 12:13:30 -0600
+
+golang-github-gorilla-sessions (1.1+git20170802.7.b61c93c-2) unstable; urgency=medium
+
+  * Oprhaning package.
+
+ -- Michael Lustfield <michael@lustfield.net>  Fri, 02 Feb 2018 23:16:01 -0600
+
+golang-github-gorilla-sessions (1.1+git20170802.7.b61c93c-1) unstable; urgency=medium
+
+  * New upstream build.
+  * Maintenance updates:
+    - Standards-Version bump.
+    - Clean up d/watch.
+    - Add Testsuite to d/control.
+
+ -- Michael Lustfield <michael@lustfield.net>  Thu, 28 Sep 2017 01:52:27 -0500
+
+golang-github-gorilla-sessions (1.1+git20170429.6.8b6b4cd-1) unstable; urgency=medium
+
+  * New upstream build.
+
+ -- Michael Lustfield <michael@lustfield.net>  Mon, 17 Jul 2017 19:20:14 -0500
+
+golang-github-gorilla-sessions (1.1+git20170307.5.ba78acc-1) unstable; urgency=medium
+
+  * Initial release (Closes: #859163)
+
+ -- Michael Lustfield <michael@lustfield.net>  Fri, 31 Mar 2017 13:32:03 -0500
